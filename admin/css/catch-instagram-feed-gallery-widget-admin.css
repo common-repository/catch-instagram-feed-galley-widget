@@ -1,0 +1,169 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#adminmenu .toplevel_page_catch_instagram_feed_gallery_widget .wp-menu-image.svg {
+    filter: invert(100%);
+    height: 70px;
+}
+
+#add-catch-instagram-feed-gallery-widget-shortcode {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#add-catch-instagram-feed-gallery-widget-shortcode img {
+    height: 22px;
+    padding: 2px 4px;
+    vertical-align: top;
+}
+
+#TB_window {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#TB_ajaxContent {
+    height: auto;
+}
+
+#TB_ajaxContent form#catch-instagram-feed-gallery-widget-shortcode-form {
+    padding-bottom: 20px;
+}
+
+.show-more.button {
+    margin: 10px 0 5px 0;
+}
+
+.as-shortcode .new:hover .show-me {
+    display: block;
+}
+
+.content-wrapper {
+    justify-content: center;
+}
+
+#public-usage .content,
+#pro-features .content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#public-usage .content>div,
+#pro-features .content>div {
+    margin: 10px 0;
+    flex: 0 1 49%;
+}
+
+#public-usage .content>div.as-shortcode {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.catch_instagram_feed_gallery_widget_settings .welcome-panel img {
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.welcome-panel .welcome-panel-column, .welcome-panel .welcome-panel-column:first-child {
+    margin: 0 0 1em;
+    max-width: 810px;
+    padding: 0 2% 0 0;
+    width: 98%;
+}
+
+.features h3 > span {
+    font-size: 15px;
+}
+
+.screenshot ul > li {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.screenshot ul > li > img {
+    box-shadow: 1px 1px 1px 1px #cccccc;
+}
+
+.features ul > li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.features ul > li > ul {
+    padding: 10px 0 5px 30px;
+}
+
+.wrap .upgrade-to-pro {
+    margin-top: 5px;
+}
+
+.wrap a {
+    text-decoration: none;
+}
+
+.upgrade-to-pro .dashicons {
+    vertical-align: middle;
+}
+
+/* Form */
+
+.show-more .dashicons {
+    vertical-align: middle;
+}
+
+.more-options {
+    display: none;
+}
+
+.button.reset-token,
+.button.reset-token:hover,
+.button.reset-token:focus {
+    background-color: #d54e21;
+    border-color: #d54e21;
+    color: #fff;
+}
+
+.button.get-token,
+.button.get-token:hover,
+.button.get-token:focus {
+    background-color: #22D41A;
+    border-color: #22D41A;
+    color: #fff;
+}
+
+.as-shortcode .new {
+    position: relative;
+}
+
+.as-shortcode .new .dashicons,
+.as-shortcode .button {
+    vertical-align: middle;
+}
+
+.as-shortcode .new>div a {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.as-shortcode .new>div {
+    display: none;
+    position: absolute;
+    right: -54px;
+    top: -1px;
+}
+
+@media screen and (min-width: 768px) {
+    .shortcode-option-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .shortcode-option-container > div {
+        margin: 10px 0;
+        flex: 0 1 45%;
+    }
+}
